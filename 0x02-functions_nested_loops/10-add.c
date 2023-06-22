@@ -3,14 +3,14 @@
 /**
  * add - adds two integers and returns the result
  *
- * @k: int to be added to m
- * @m: int to be added to k
+ * @a: int to be added to b
+ * @b: int to be added to a
  *
- * Return: sum of k and m
+ * Return: sum of a and b
  */
-int add(int k, int m)
+int add(int a, int b)
 {
-	int sum = k + m;
+	int sum = a + b;
 
 	return (sum);
 }
