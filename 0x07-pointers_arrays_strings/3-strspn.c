@@ -2,25 +2,26 @@
 /**
 * _strspn - Entry point
 * @s: input
-* Return: Always 0 
+* @accept: input
+* Return: Always 0 (Success)
 */
 unsigned int _strspn(char *s, char *accept)
 {
 unsigned int n = 0;
-int k;
+int r;
 while (*s)
 {
-for (k = 0; accept[k]; k++)
+for (r = 0; accept[r]; r++)
 {
-if (*s == accept[k])
+if (*s == accept[r])
 {
 n++;
 break;
 }
-else if (accept[k + 1] == '\0')
+else if (accept[r + 1] == '\0')
 return (n);
 }
-k++;
+s++;
 }
 return (n);
 }
