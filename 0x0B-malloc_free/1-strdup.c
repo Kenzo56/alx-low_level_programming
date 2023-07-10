@@ -16,7 +16,7 @@ i = 0;
 while (str[i] != '\0')
 i++;
 kkk = malloc(sizeof(char) * (i + 1));
-if (aaa == NULL)
+if (kkk == NULL)
 return (NULL);
 for (r = 0; str[r]; r++)
 kkk[r] = str[r];
