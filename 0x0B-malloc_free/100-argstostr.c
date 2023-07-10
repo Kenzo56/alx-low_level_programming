@@ -25,7 +25,7 @@ for (k = 0; k < ac; k++)
 {
 for (j = 0; av[k][j]; j++)
 {
-str[r] = av[k][j];
+str[a] = av[k][j];
 a++;
 }
 if (str[a] == '\0')
