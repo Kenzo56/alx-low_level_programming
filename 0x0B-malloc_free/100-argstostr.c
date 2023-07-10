@@ -14,7 +14,7 @@ if (ac == 0 || av == NULL)
 return (NULL);
 for (k = 0; k < ac; k++)
 {
-for (n = 0; av[i][n]; n++)
+for (n = 0; av[k][n]; n++)
 l++;
 }
 l += ac;
