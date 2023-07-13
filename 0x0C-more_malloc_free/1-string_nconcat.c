@@ -14,7 +14,7 @@ unsigned int k = 0, j = 0, l1 = 0, l2 = 0;
 while (s1 && s1[l1])
 l1++;
 while (s2 && s2[l2])
-len2++;
+l2++;
 if (n < l2)
 s = malloc(sizeof(char) * (l1 + n + 1));
 else
