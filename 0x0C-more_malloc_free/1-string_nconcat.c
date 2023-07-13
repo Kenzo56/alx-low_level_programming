@@ -26,7 +26,7 @@ while (i < l1)
 s[k] = s1[k];
 k++;
 }
-while (n < l2 && i < (l1 + n))
+while (n < l2 && k < (l1 + n))
 s[k++] = s2[j++];
 while (n >= l2 && k < (l1 + l2))
 s[k++] = s2[j++];
