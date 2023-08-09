@@ -14,7 +14,7 @@ if (filename == NULL)
 return (-1);
 if (text_content != NULL)
 {
-for (l = 0; text_content[len];)
+for (l = 0; text_content[l];)
 l++;
 }
 k = open(filename, O_WRONLY | O_APPEND);
