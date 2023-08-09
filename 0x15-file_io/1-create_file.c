@@ -17,7 +17,7 @@ for (l = 0; text_content[l];)
 l++;
 }
 ff = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-k = write(fd, text_content, l);
+k = write(ff, text_content, l);
 if (ff == -1 || k == -1)
 return (-1);
 close(ff);
