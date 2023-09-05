@@ -67,7 +67,7 @@ free(buffer);
 exit(98);
 }
 w = write(t, buffer, r);
-if (to == -1 || w == -1)
+if (t == -1 || w == -1)
 {
 dprintf(STDERR_FILENO,
 "Error: Can't write to %s\n", argv[2]);
